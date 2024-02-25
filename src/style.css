@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --dc-primary: rgba(2,130,249);
+  --dc-dark: rgba(28,28,28);
+  --dc-dark_grey: rgba(48,48,48);
+  --dc-light: rgba(255,255,255);
+  --dc-lighter_primary: rgba(39,138,249);
+  --dc-darker_primary: rgba(26,104,232);
+}
