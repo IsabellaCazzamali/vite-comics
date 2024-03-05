@@ -1,8 +1,10 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue';
 import ComicCard from './ComicCard.vue';
 export default {
     name: 'AppMain.vue',
     components:{
+      AppJumbotron,
       ComicCard
     },
     data(){
@@ -26,6 +28,10 @@ export default {
 <template>
 
     <main>
+
+      <!-- Jumbotron -->
+      <AppJumbotron></AppJumbotron>
+
       <section class="comics">
         <div class="container">
           <div class="row">
@@ -48,7 +54,6 @@ export default {
 <style>
 
 main{
-  margin-top: 1.5rem;
   background-color: var(--dc-dark);
   min-height: 400px;
 }
